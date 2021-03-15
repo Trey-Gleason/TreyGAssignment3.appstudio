@@ -8,11 +8,11 @@ btnDisplay.onclick=function() {
   for (i = 0; i <= price.length -1; i++) {
     inptItems.push(`${product[i]} : ${price[i]}`)
 }
-    lbl.value = `${unit}`
+    lblwishListItem.value = `${unit}`
 }
 
 btnAddToWishList.onclick=function() {
   let itemProduct = inptItems.value
   lblwishList.push(product)
-  list.value = `${lblwishList}`
+  lblwishList.value = `${lblwishList}`
 }
