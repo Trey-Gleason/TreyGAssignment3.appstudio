@@ -49,6 +49,22 @@
             "dogStore",
             "dogStore.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "ExtraCredit",
+            "ExtraCredit.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Form1",
+            "Form1.json"
+          ]
         }
       ],
       "configxml": null,
